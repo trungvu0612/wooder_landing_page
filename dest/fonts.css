@@ -1,0 +1,27 @@
+/* FONT FACE - font-display: fallback; */
+/* @font-face {
+  font-family: "Proxima Nova Rg";
+  src: url("/fonts/ProximaNova-Bold.woff") format("woff"),
+    url("/fonts/ProximaNova-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "Proxima Nova Alt Th";
+  src: url("ProximaNovaA-Extrabld.woff2") format("woff2"),
+    url("ProximaNovaA-Extrabld.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: fallback;
+} */
+
+@font-face {
+  font-family: "Proxima Nova Rg";
+  src: url("/fonts/ProximaNovaA-Extrabld.woff2") format("woff2"),
+    url("/fonts/ProximaNovaA-Extrabld.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}

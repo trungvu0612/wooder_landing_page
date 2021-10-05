@@ -1,0 +1,147 @@
+// css button, title, icon, elements...
+img {
+    max-width: 100%;
+}
+
+.btnmain {
+    border: 1px solid white;
+    text-decoration: none;
+    line-height: normal;
+    font-family: Proxima Nova Rg;
+    text-transform: uppercase;
+    align-items: center;
+    color: #fff;
+    padding: 7px 50px;
+    transition: 0.4s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    i {
+        display: block;
+        margin-left: 20px;
+    }
+    &:hover {
+        background: $yellow-cl;
+        transition: 0.4s;
+    }
+}
+
+.btnmainson {
+    color: #000;
+    font-size: 14px;
+    padding: 10px 20px 10px 0px;
+    text-decoration: none;
+    line-height: normal;
+    font-family: Proxima Nova Rg;
+    text-transform: uppercase;
+    align-items: center;
+    transition: 0.4s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    i {
+        display: inline-block;
+        margin: 0px;
+        img {
+            width: 50px;
+            height: 30px;
+        }
+    }
+    &::before {
+        content: "";
+        width: 40px;
+        height: 3px;
+        background-color: #bea67c;
+        position: absolute;
+        margin-left: -100px;
+        margin-top: 40px;
+    }
+}
+
+.text__title {
+    position: relative;
+    padding-left: 100px;
+    padding-top: 80px;
+    .title {
+        font-weight: bold;
+        text-decoration: none;
+        line-height: normal;
+        font-family: Proxima Nova Rg;
+        text-transform: uppercase;
+        align-items: center;
+        letter-spacing: 7px;
+        display: inline-flex;
+        font-size: 30px;
+        margin-left: -20px;
+        &:before {
+            content: "";
+            width: 80px;
+            height: 2px;
+            background-color: #555555;
+            position: relative;
+            display: inline-block;
+            margin-left: -60px;
+            left: -20px;
+        }
+    }
+    .text {
+        padding: 10px 60px 24px 0px;
+        height: 65px;
+        line-height: 16px;
+        font-family: Proxima Nova Rg;
+        font-size: 12px;
+        color: #636262;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
+    &.--right {
+        text-align: right;
+        text-decoration: none;
+        line-height: normal;
+        font-family: Proxima Nova Rg;
+        .text {
+            height: 54px;
+            text-decoration: none;
+            line-height: normal;
+            font-family: Proxima Nova Rg;
+            font-size: 12px;
+            color: #636262;
+            padding: 10px 80px 24px 60px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+        }
+        .title {
+            font-weight: bold;
+            text-decoration: none;
+            line-height: normal;
+            font-family: Proxima Nova Rg;
+            text-transform: uppercase;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            &:after {
+                content: "";
+                width: 80px;
+                height: 2px;
+                background-color: #555555;
+                position: relative;
+                display: inline-block;
+                margin-bottom: 8px;
+            }
+            &::before {
+                display: none;
+            }
+        }
+        .btnmainson {
+            margin-right: 60px;
+        }
+    }
+}
