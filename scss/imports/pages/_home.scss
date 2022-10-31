@@ -478,7 +478,7 @@ main {
         }
         &__tabs {
             &-text {
-                display: flex;
+                display: block;
                 align-items: center;
                 margin-bottom: 40px;
                 .tag {
